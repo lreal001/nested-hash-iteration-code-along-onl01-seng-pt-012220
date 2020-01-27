@@ -19,7 +19,8 @@ contacts.each do |person, person_details|
   if person == "Freddy Mercury"
   person_details.each do |attribute, value|
     
-    if attribute == :favorite_ice_cream_flavorsbinding.pry
+    if attribute == :favorite_ice_cream_flavors
+      binding.pry
       value.each do |flavor|
         if value == "strawberry"
           Array.delete("strawberry")
