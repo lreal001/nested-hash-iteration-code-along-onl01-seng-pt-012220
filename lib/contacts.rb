@@ -24,7 +24,7 @@ contacts.each do |person, person_details|
       value.each do |flavor|
         value.delete_if {|ice_cream| ice_cream == "strawberry"}
         end
-      end 
+       
       end 
       end 
       end 
