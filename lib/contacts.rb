@@ -22,8 +22,7 @@ contacts.each do |person, person_details|
     if attribute == :favorite_ice_cream_flavors
       binding.pry
       value.each do |flavor|
-        if value == "strawberry"
-          Array.delete("strawberry")
+        value.delete_if {|ice_cream| ice_cream == "strawberry"}
         end
       end 
       end 
