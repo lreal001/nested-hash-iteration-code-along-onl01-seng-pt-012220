@@ -23,7 +23,8 @@ contacts.each do |person, person_details|
       value.each do |flavor|
         if value == "strawberry"
           Array.delete("strawberry")
-        end 
+        end
+      end 
       end 
       end 
       end 
